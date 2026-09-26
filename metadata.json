@@ -1,0 +1,6 @@
+{
+  "name": "Light Novel Creator",
+  "description": "Transform your manuscript, story idea, or outline into a complete, illustrated light novel and ready-to-publish e-book.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

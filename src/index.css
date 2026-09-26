@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+/* Accessibility Standards (WCAG 2.1 AA) */
+.dyslexic-font {
+  font-family: 'OpenDyslexic', 'Comic Sans MS', sans-serif !important;
+  letter-spacing: 0.05em;
+  word-spacing: 0.1em;
+}
+
+.high-contrast {
+  filter: contrast(135%);
+  --tw-contrast: 135%;
+}
+
+.reduced-motion * {
+  animation-duration: 0.001ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.001ms !important;
+}
+
